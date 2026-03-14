@@ -34,7 +34,8 @@
 - `Take(this string text, int count)`: 처음 N글자만 반환
 - `AddEllipsis(this string text)`: 말줄임표(`...`) 추가
 
-`"안녕하세요 반갑습니다 좋은 하루 되세요"` 문자열을 `.Take(10).AddEllipsis().AddPrefix("[메시지] ").AddSuffix(" (더보기)")` 체이닝으로 처리하세요.
+`"안녕하세요 반갑습니다 좋은 하루 되세요"` 문자열을 
+`.Take(10).AddEllipsis().AddPrefix("[메시지] ").AddSuffix(" (더보기)")` 체이닝으로 처리하세요.
 
 **실행 결과**
 

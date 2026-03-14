@@ -9,7 +9,10 @@
 
 ## 1. 간단한 확장 메서드
 
-`StringExtensions` 정적 클래스에 `First(this string text, int count)` 확장 메서드를 정의하세요. 문자열의 처음 N글자만 반환합니다. 빈 문자열이면 그대로 반환하고, count가 문자열 길이 이상이면 전체를 반환합니다. `"안녕하세요".First(3)`을 호출하여 테스트하세요.
+`StringExtensions` 정적 클래스에 `First(this string text, int count)` 확장 메서드를 정의하세요. 
+문자열의 처음 N글자만 반환합니다. 빈 문자열이면 그대로 반환하고, 
+count가 문자열 길이 이상이면 전체를 반환합니다. 
+`"안녕하세요".First(3)`을 호출하여 테스트하세요.
 
 **실행 결과**
 
@@ -21,7 +24,8 @@
 
 ## 2. 사용자 정의 클래스 확장
 
-`Player` 클래스(`Name`, `Level`, `Experience` 속성)를 정의하고, `PlayerExtensions` 정적 클래스에 다음 확장 메서드를 추가하세요:
+`Player` 클래스(`Name`, `Level`, `Experience` 속성)를 정의하고, 
+`PlayerExtensions` 정적 클래스에 다음 확장 메서드를 추가하세요:
 - `GetInfo(this Player player)`: 플레이어 정보 문자열 반환
 - `CanLevelUp(this Player player)`: 경험치가 100 이상이면 true 반환
 - `LevelUp(this Player player)`: 레벨업 수행 (레벨 +1, 경험치 -100)

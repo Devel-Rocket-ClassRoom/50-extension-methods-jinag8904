@@ -9,7 +9,9 @@
 
 ## 1. 확장 메서드란? - 정적 메서드 방식
 
-`StringHelper` 정적 클래스에 `CountWords(string text)` 정적 메서드를 정의하세요. 문자열을 공백으로 분리하여 단어 개수를 반환합니다. `"안녕하세요 반갑습니다"` 문자열로 테스트하세요.
+`StringHelper` 정적 클래스에 `CountWords(string text)` 정적 메서드를 정의하세요. 
+문자열을 공백으로 분리하여 단어 개수를 반환합니다. 
+`"안녕하세요 반갑습니다"` 문자열로 테스트하세요.
 
 **실행 결과**
 
@@ -21,7 +23,9 @@
 
 ## 2. 확장 메서드란? - 확장 메서드 방식
 
-`StringExtensions` 정적 클래스에 `CountWords(this string text)` 확장 메서드를 정의하세요. 첫 번째 매개변수에 `this` 키워드를 붙여 string 타입의 확장 메서드로 만듭니다. `"안녕하세요 반갑습니다"` 문자열에서 `.CountWords()`로 직접 호출하세요.
+`StringExtensions` 정적 클래스에 `CountWords(this string text)` 확장 메서드를 
+정의하세요. 첫 번째 매개변수에 `this` 키워드를 붙여 string 타입의 확장 메서드로 
+만듭니다. `"안녕하세요 반갑습니다"` 문자열에서 `.CountWords()`로 직접 호출하세요.
 
 **실행 결과**
 
@@ -36,7 +40,8 @@
 `IntExtensions` 정적 클래스에 다음 확장 메서드를 정의하세요:
 - `IsEven(this int number)`: 짝수 여부 반환
 - `IsOdd(this int number)`: 홀수 여부 반환
-- `Repeat(this int number, int times)`: 숫자를 N번 반복한 문자열 반환 (`Enumerable.Repeat` 사용)
+- `Repeat(this int number, int times)`: 숫자를 N번 반복한 문자열 반환 
+(`Enumerable.Repeat` 사용)
 
 `10.IsEven()`, `7.IsOdd()`, `3.Repeat(5)`를 호출하여 테스트하세요.
 
